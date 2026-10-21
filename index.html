@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="monetag" content="e36abb4c8a1f38b0f4a2a539c0fca25b">
+<script src="https://quge5.com/88/tag.min.js" data-zone="299440" async data-cfasync="false"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PromptVault India – Free AI Image Prompts</title>
+<meta name="description" content="100+ free AI image prompts for Gemini and ChatGPT. Copy a prompt or use it with your own photo.">
+<style>
+:root{--bg:#0b0b14;--card:#151524;--tx:#f2f2f8;--mu:#9a9ab5;--ac:#ff5c8a;--ac2:#7c5cff;--bd:#25253a}
+@media(prefers-color-scheme:light){:root{--bg:#f6f6fb;--card:#fff;--tx:#14142a;--mu:#5d5d78;--bd:#e3e3ef}}
+*{box-sizing:border-box;margin:0}body{font-family:system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--bd);padding:12px 16px}
+.top{max-width:1200px;margin:auto;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.logo{font-weight:800;font-size:20px;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+#q{flex:1;min-width:180px;padding:11px 14px;border-radius:12px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font-size:15px}
+.hero{max-width:1200px;margin:auto;padding:28px 16px 8px}.hero h1{font-size:clamp(26px,5vw,42px);line-height:1.15}
+.hero p{color:var(--mu);margin-top:8px}
+.chips{max-width:1200px;margin:auto;padding:12px 16px;display:flex;gap:8px;overflow-x:auto}
+.chip{padding:8px 14px;border-radius:99px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer;white-space:nowrap;font-size:14px}
+.chip.on{background:linear-gradient(90deg,var(--ac),var(--ac2));border-color:transparent;color:#fff}
+.ad{max-width:1200px;margin:8px auto;padding:0 16px}.ad div{min-height:90px;border:1px dashed var(--bd);border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--mu);font-size:12px}
+.grid{max-width:1200px;margin:auto;padding:8px 16px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.img{position:relative;aspect-ratio:4/5;display:flex;align-items:center;justify-content:center;font-size:64px}
+.img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tag{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;padding:4px 9px;border-radius:99px}
+.body{padding:12px;display:flex;flex-direction:column;gap:8px;flex:1}.body h3{font-size:15px}
+.body p{font-size:13px;color:var(--mu);line-height:1.45;flex:1}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+button.b{padding:10px 6px;border-radius:10px;border:0;font-weight:600;cursor:pointer;font-size:13px}
+.cp{background:var(--ac);color:#fff}.up{background:var(--ac2);color:#fff}.pv{grid-column:1/3;background:var(--bd);color:var(--tx)}
+footer{border-top:1px solid var(--bd);padding:28px 16px;color:var(--mu);font-size:14px;text-align:center}
+footer a{color:var(--ac);margin:0 8px}
+.pg{max-width:800px;margin:0 auto;padding:24px 16px;color:var(--mu);line-height:1.6}.pg h2{color:var(--tx);margin-bottom:6px}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#111;color:#fff;padding:12px 18px;border-radius:12px;transition:.3s;z-index:9}
+#toast.s{transform:translateX(-50%) translateY(0)}
+</style></head><body>
+<header><div class="top"><div class="logo">PromptVault India</div>
+<input id="q" type="search" placeholder="Search prompts… (saree, couple, retro)"></div></header>
+<div class="hero"><h1>Free AI image prompts.<br>Copy. Paste. Done.</h1>
+<p>100+ ready prompts for Gemini and ChatGPT. Tap <b>Use my photo</b> to get the same style with your own face.</p></div>
+<div class="chips" id="chips"></div>
+<div class="ad"><div><!-- AdSense / ad code here -->Ad space</div></div>
+<div class="grid" id="grid"></div>
+<div class="ad"><div><!-- ad code here -->Ad space</div></div>
+<section class="pg" id="about"><h2>How to use</h2>
+<p>1) Tap <b>Copy prompt</b> and paste it in Gemini or ChatGPT. 2) For your own photo, tap <b>Use my photo</b>: we copy the prompt and open Gemini. Upload your photo there and paste. 3) Tip: add "keep my face exactly the same" for best results.</p></section>
+<section class="pg" id="privacy"><h2>Privacy</h2><p>We do not store your photos. Photos are uploaded only inside Gemini or ChatGPT, not on this site. We count copies only in your own browser. Ad partners may use cookies.</p></section>
+<section class="pg" id="contact"><h2>Contact</h2><p>Email: shivanshchaurasia12@gmail.com</p></section>
+<footer>© 2026 PromptVault India · <a href="#about">About</a><a href="#privacy">Privacy</a><a href="#contact">Contact</a></footer>
+<div id="toast"></div>
+<script>
+const E={Boy:"🧑",Girl:"👧",Couple:"💑",Saree:"🥻",Festival:"🪔",Retro:"📻",Cinematic:"🎬",Fantasy:"🐉"};
+const D=`Boy|Royal Sherwani Portrait|Indian young man in black sherwani, golden embroidery, palace courtyard, soft sunset light, sharp face, 85mm portrait, ultra realistic
+Boy|Neon Cyberpunk Boy|Young man in black techwear jacket, neon pink and blue city street at night, rain reflections, cinematic, 8k
+Boy|Moody Rooftop Boy|Boy in white shirt sitting on rooftop at golden hour, wind in hair, warm film tones, shallow depth of field
+Boy|Gym Hero Poster|Muscular young man, gym backdrop, dramatic rim light, sweat details, motivational poster style, hyper detailed
+Boy|Vintage Bike Rider|Young man in leather jacket beside a vintage Royal Enfield, dusty road, golden hour, cinematic grain
+Boy|Snowy Mountain Traveller|Boy in red puffer jacket on snowy Himalayan peak, blue sky, travel photography, ultra sharp
+Boy|Business Mogul|Confident man in navy suit, glass skyscraper office, city skyline, professional headshot, soft studio light
+Boy|Anime Hero|Young man as anime hero, spiky hair, glowing aura, dynamic pose, vibrant colors, studio ghibli meets modern anime
+Boy|Cool Sunglasses Street|Stylish boy in oversized hoodie and sunglasses, Mumbai street, graffiti wall, golden hour, fashion photography
+Boy|Cricket Star|Young man in blue cricket jersey, stadium lights, celebration pose, crowd blur, sports photography
+Boy|Black and White Studio|Dramatic black and white studio portrait of a young man, hard side light, deep shadows, fine grain
+Boy|Space Explorer|Boy in white astronaut suit, helmet under arm, Mars landscape, cinematic lighting, ultra detailed
+Boy|Pastel Bedroom Aesthetic|Boy lying on bed with fairy lights, pastel room, dreamy soft focus, cozy aesthetic photo
+Girl|Golden Hour Portrait|Beautiful Indian girl, long wavy hair, golden hour backlight, flowers in hand, soft glow, ultra realistic
+Girl|Pink Dream Girl|Girl in pastel pink dress, cherry blossom garden, dreamy soft light, bokeh, fashion editorial
+Girl|Red Lehenga Bride|Indian bride in red lehenga, heavy gold jewelry, mehendi hands, mandap background, cinematic, rich detail
+Girl|Cafe Window Girl|Girl reading by cafe window, rainy day, warm cozy light, coffee steam, film photography
+Girl|Cyberpunk Girl|Girl with neon hair, holographic jacket, futuristic Tokyo alley, purple blue neon glow, 8k
+Girl|Boho Beach Girl|Girl in white boho dress on beach at sunset, hair flowing, golden light, dreamy, travel photo
+Girl|Anime Princess|Girl as anime princess, big sparkling eyes, flower crown, pastel castle garden, detailed illustration
+Girl|Winter Coat Girl|Girl in beige long coat, snowy street, warm scarf, soft snowfall, cinematic bokeh lights
+Girl|Fashion Magazine Cover|High fashion model, bold red lipstick, minimal studio, magazine cover layout, sharp light
+Girl|Library Dark Academia|Girl in tweed blazer among old library shelves, warm lamp light, books, dark academia aesthetic
+Girl|Butterfly Garden Fantasy|Girl surrounded by glowing butterflies in enchanted garden, soft magic light, ethereal, ultra detailed
+Girl|Monsoon Umbrella Girl|Girl with transparent umbrella in monsoon rain, yellow kurti, wet street reflections, cinematic
+Girl|Pink Sunset Silhouette|Silhouette of girl against pink and orange sunset sky, arms open, wide cinematic frame
+Couple|Wedding Palace Couple|Indian couple in royal wedding attire, palace backdrop, golden light, romantic pose, ultra realistic
+Couple|Sunset Beach Couple|Couple holding hands on beach at sunset, silhouettes, warm orange sky, romantic cinematic
+Couple|Rainy Umbrella Couple|Couple sharing one umbrella in light rain, city street, warm shop lights, romantic film still
+Couple|Snow Mountain Couple|Couple in matching sweaters hugging in snowy mountains, pine trees, soft light, travel romance
+Couple|Pre-Wedding Flower Field|Couple in a field of yellow flowers, flowing outfits, golden hour, pre-wedding photography
+Couple|Retro Bollywood Couple|Couple in 1970s Bollywood style, chiffon saree and bell-bottoms, vintage color grain, romantic song scene
+Couple|Eiffel Tower Couple|Couple kissing in front of Eiffel Tower at dusk, glowing city lights, romantic cinematic
+Couple|Cafe Date Couple|Couple laughing at a cozy cafe table, coffee and cake, warm light, candid photography
+Couple|Rooftop Night Couple|Couple dancing on rooftop under fairy lights, city skyline at night, dreamy bokeh
+Couple|Anime Couple|Anime couple under cherry blossoms, petals falling, soft pastel colors, detailed illustration
+Couple|Car Road Trip Couple|Couple laughing beside vintage jeep on mountain road, sunset, adventure travel photography
+Couple|Royal Throne Couple|Couple seated on golden throne, royal Rajasthani outfits, grand hall, rich colors, cinematic
+Saree|Red Saree Elegance|Woman in red silk saree, gold border, temple background, soft morning light, graceful pose, ultra realistic
+Saree|Black Saree Glam|Woman in black saree with sequin blouse, studio spotlight, elegant pose, high fashion portrait
+Saree|Yellow Saree Mustard Field|Woman in yellow saree in mustard field, wind blowing pallu, golden hour, Bollywood feel
+Saree|Blue Saree Rain|Woman in blue saree dancing in light rain, wet hair, dreamy romantic mood, cinematic
+Saree|Green Saree Garden|Woman in green saree among palm leaves, jasmine in hair, soft sunlight, traditional beauty
+Saree|White Saree Minimal|Woman in white cotton saree, sunlit window, shadow patterns, minimal aesthetic photo
+Saree|Banarasi Bride|Woman in maroon Banarasi saree, heavy jewelry, bridal look, warm studio light, rich detail
+Saree|Pink Saree Retro Film|Woman in pink chiffon saree, 1980s film style, vintage grain, soft focus, Bollywood poster look
+Saree|Saree on Heritage Steps|Woman in orange saree on old fort steps, golden hour, wide shot, travel fashion photography
+Saree|Saree with Lantern Night|Woman in purple saree holding glowing lantern, night street, warm bokeh, dreamy mood
+Saree|Gold Tissue Saree|Woman in gold tissue saree, glitter light, party backdrop, glamorous portrait, sharp
+Saree|Saree Beach Walk|Woman in teal saree walking on beach, waves, sunset sky, flowing fabric, cinematic wide shot
+Festival|Diwali Diyas Portrait|Person in festive outfit holding lit diya, hundreds of glowing diyas, warm golden bokeh, Diwali night
+Festival|Holi Colors Burst|Friends laughing in colorful Holi powder cloud, vibrant pink yellow blue, joyful, high speed photography
+Festival|Ganesh Chaturthi Pandal|Devotee with Ganesha idol, flower decoration, warm lights, festive pandal, devotional mood
+Festival|Navratri Garba Night|Woman in colorful chaniya choli dancing garba, glowing lights, motion blur, festive energy
+Festival|Eid Moonlight Portrait|Person in white kurta under crescent moon, lanterns, soft night glow, peaceful Eid mood
+Festival|Raksha Bandhan Siblings|Sister tying rakhi on brother's wrist, sweets thali, warm home light, emotional portrait
+Festival|Christmas Tree Cozy|Person in red sweater by Christmas tree, string lights, hot cocoa, warm cozy photograph
+Festival|Karwa Chauth Moon|Woman in red bridal outfit with sieve, full moon night, decorated thali, romantic festive look
+Festival|Makar Sankranti Kites|Boy flying colorful kites on rooftop, blue sky full of kites, winter sun, joyful, vibrant
+Festival|Durga Puja Aarti|Woman in white-red saree performing aarti, dhunuchi smoke, goddess Durga pandal, golden glow
+Festival|Independence Day Tricolor|Young person with tricolor flag, saffron white green smoke, proud pose, cinematic patriotic poster
+Festival|New Year Fireworks|Friends celebrating under fireworks, glitter, night skyline, confetti, festive party photo
+Retro|90s Bollywood Poster|Man and woman in 90s Bollywood movie poster style, bold fonts, warm grain, dramatic pose
+Retro|Vintage Polaroid|Person in vintage polaroid frame, faded colors, flash, 1980s home party mood
+Retro|Black and White Cinema|Old classic black and white film still, soft focus, dramatic shadows, 1950s cinema glamour
+Retro|70s Disco Fashion|Person in 70s flared outfit, disco ball lights, orange and brown tones, retro grain
+Retro|Old Indian Street|Person standing in 1960s Indian street, old cars, hand painted shop boards, warm film grain
+Retro|Vintage Film Camera|Person holding old film camera, warm sepia light, vintage studio, nostalgic mood
+Retro|Retro Anime 90s|Portrait in 90s anime style, cel shading, soft glow, grain, nostalgic colors
+Retro|Vaporwave Sunset|Person with sunglasses, vaporwave pink purple sunset, palm trees, grid horizon, retro 80s style
+Retro|Old Train Station|Person with suitcase at vintage railway station, steam, warm sepia tones, cinematic nostalgia
+Retro|Vintage Telephone Booth|Person in old red telephone booth, rainy evening, moody neon glow, film noir style
+Retro|Typewriter Writer|Person typing on old typewriter in cozy study, warm desk lamp, vintage books, nostalgic photo
+Retro|Radio Era Family|Family around vintage radio at home, 1960s decor, warm tones, candid retro photo
+Retro|Roller Skate Rink|Friends roller skating in neon retro rink, 80s outfits, glitter lights, motion energy
+Cinematic|Movie Poster Hero|Person as action hero on movie poster, explosion behind, dramatic lighting, bold title space, cinematic
+Cinematic|Rain Noir Detective|Man in trench coat under street lamp in rain, film noir, deep shadows, cinematic grain
+Cinematic|Desert Warrior|Warrior walking in desert storm, flowing cloak, orange dust light, epic wide shot
+Cinematic|Underwater Dream|Person floating underwater in flowing dress, rays of light, bubbles, surreal cinematic
+Cinematic|Epic Mountain Wanderer|Lone traveler on cliff edge above clouds, sunrise, epic scale, ultra wide, cinematic
+Cinematic|Sci-Fi Captain|Person as spaceship captain, glowing control panel, blue light, futuristic cinematic still
+Cinematic|Samurai Sunset|Samurai standing in bamboo forest at sunset, mist, katana, dramatic rim light
+Cinematic|Dark Villain Portrait|Person with dark intense gaze, red backlight, smoke, villain poster style, hyper realistic
+Cinematic|Spy Thriller Night|Person in black suit walking through neon city at night, thriller movie still, anamorphic flare
+Cinematic|Forest Mystery|Person with lantern in foggy forest, moonlight, mystical mood, cinematic depth
+Cinematic|Tokyo Night Walk|Person with umbrella on Tokyo street at night, neon signs, wet road, lo-fi cinematic
+Cinematic|Western Gunslinger|Cowboy at dusty town sunset, hat shadow on face, wide shot, classic western film look
+Cinematic|Historical Epic King|Person as Indian king in battlefield armor, banners, golden dust, epic cinematic frame
+Fantasy|Dragon Rider|Person riding a giant dragon above clouds, fiery sunset, epic fantasy art, ultra detailed
+Fantasy|Elf Forest Queen|Elf queen in glowing forest, silver crown, floating lights, magical ethereal portrait
+Fantasy|Wizard Tower|Wizard on top of tower, glowing staff, starry sky, swirling magic, fantasy illustration
+Fantasy|Mermaid Ocean|Mermaid on rock at sunrise, shimmering tail, pearls, soft sea mist, dreamy fantasy
+Fantasy|Fairy Mushroom Village|Tiny fairy sitting on glowing mushroom, magical forest, fireflies, storybook style
+Fantasy|Phoenix Rebirth|Person with huge glowing phoenix wings of fire, dark background, sparks, epic art
+Fantasy|Floating Island Kingdom|Floating islands with waterfalls and castles, sunset sky, magical fantasy landscape
+Fantasy|Angel and Demon|Split portrait: angel wings on one side and demon horns on the other, dramatic light, detailed
+Fantasy|Crystal Cave Explorer|Explorer in glowing blue crystal cave, lantern, reflections, magical atmosphere, cinematic
+Fantasy|Snow Queen|Queen in ice crown and glittering gown, frozen palace, cold blue light, fantasy portrait
+Fantasy|Steampunk Inventor|Inventor with brass goggles and gears workshop, warm steam light, steampunk detailed art
+Fantasy|Mythic Shiva Aura|Meditating figure with glowing aura on Himalayan peak, moonlight, serene divine mood, cinematic art`.split("\n").map((l,i)=>{const [c,t,p]=l.split("|");return{id:i,c,t,p,hot:i%7==0}});
+let cat="All",q="";const grid=document.getElementById("grid"),chips=document.getElementById("chips");
+let cnt={};try{cnt=JSON.parse(localStorage.getItem("pv")||"{}")}catch(e){}
+const cats=["All","🔥 Trending",...Object.keys(E)];
+chips.innerHTML=cats.map(c=>`<button class="chip${c=="All"?" on":""}" data-c="${c}">${c}</button>`).join("");
+chips.onclick=e=>{const c=e.target.dataset.c;if(!c)return;cat=c;[...chips.children].forEach(x=>x.classList.toggle("on",x.dataset.c==c));draw()};
+document.getElementById("q").oninput=e=>{q=e.target.value.toLowerCase();draw()};
+function toast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("s");setTimeout(()=>t.classList.remove("s"),2200)}
+async function copy(i,go){const p=D[i].p+(go?". Use my uploaded photo and keep my face exactly the same.":"");
+try{await navigator.clipboard.writeText(p)}catch(e){const a=document.createElement("textarea");a.value=p;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove()}
+cnt[i]=(cnt[i]||0)+1;try{localStorage.setItem("pv",JSON.stringify(cnt))}catch(e){}
+if(go){toast("Copied! Upload your photo in Gemini, then paste");window.open("https://gemini.google.com/app","_blank")}else toast("Prompt copied ✓")}
+function pv(i,b){const c=b.closest('.card').querySelector('.img');let m=c.querySelector('img');if(!m){m=document.createElement('img');c.prepend(m)}m.src=pu(i);toast('Making image… free limit: 1 image per 45 sec')}
+const G={};let Q=[],busy=false,last=0;
+const KEY="";
+function pu(i){return 'https://gen.pollinations.ai/image/'+encodeURIComponent(D[i].p)+'?width=400&height=500&nologo=true&seed='+i+(KEY?'&key='+KEY:'')}
+function fb(m){m.onerror=null;const i=m.dataset.i;if(G[i]){m.src=G[i];return}Q.push(m);run()}
+function run(){if(busy)return;busy=true;const go=()=>{const m=Q.pop();if(!m){busy=false;return}if(!m.isConnected)return go();const i=m.dataset.i;last=Date.now();G[i]=pu(i);m.src=G[i];setTimeout(go,46000)};setTimeout(go,Math.max(0,46000-(Date.now()-last)))}
+function draw(){let L=D.filter(x=>(cat=="All"||(cat[0]=="🔥"?x.hot||cnt[x.id]>1:x.c==cat))&&(x.t+x.p+x.c).toLowerCase().includes(q));
+if(cat[0]=="🔥")L.sort((a,b)=>(cnt[b.id]||0)-(cnt[a.id]||0));
+grid.innerHTML=L.map(x=>{const h=x.id*37%360;return`<div class="card"><div class="img" style="background:linear-gradient(135deg,hsl(${h},70%,45%),hsl(${(h+60)%360},70%,30%))">${E[x.c]}<img loading="lazy" alt="" data-i="${x.id}" style="opacity:0;transition:opacity .5s" onload="this.style.opacity=1" onerror="fb(this)" src="img/${x.id}.jpg">${x.hot?'<span class="tag">🔥 Trending</span>':`<span class="tag">${x.c}</span>`}</div><div class="body"><h3>${x.t}</h3><p>${x.p}</p><div class="btns"><button class="b cp" onclick="copy(${x.id},0)">Copy prompt</button><button class="b up" onclick="copy(${x.id},1)">Use my photo</button><button class="b pv" onclick="pv(${x.id},this)">Make sample image</button></div></div></div>`}).join("")||"<p style='padding:20px;color:var(--mu)'>No prompts found.</p>"}
+draw();
+if(/^https?:/.test(location.protocol)&&"serviceWorker"in navigator&&!/claude|anthropic/.test(location.host))navigator.serviceWorker.register("/sw.js").catch(()=>{});
+</script></body></html>
